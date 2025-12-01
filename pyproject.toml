@@ -1,0 +1,14 @@
+[project]
+name = "aoc25"
+version = "0.1.0"
+description = "Don't add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.mypy]
+mypy_path = "code"
+explicit_package_bases = true
+
+[tool.ty.environment]
+extra-paths = ["code"]
