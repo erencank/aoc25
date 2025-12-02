@@ -46,7 +46,7 @@ def process_a_and_b(file: list[str]) -> None:
 
 def main() -> None:
     file = read_input(1, False)
-    process_a_and_b(file)
+    process_a_and_b(file.split("\n"))
 
 
 if __name__ == "__main__":
